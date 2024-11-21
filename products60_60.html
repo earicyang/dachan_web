@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>產品導覽60x120</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .wrap {
+        width: 1380px;
+        height: 100px auto;
+        margin: auto;
+    }
+
+    #icon a img {
+        width: 100px;
+        float: left;
+        margin-top: 40px;
+        margin-left: 40px;
+        position: absolute;
+    }
+
+    #icon img:hover {
+        display: block;
+        color: grey;
+        transform: scale(2.2)
+    }
+
+
+    #content {
+        border: 5px solid rgb(61, 61, 61);
+        width: 1380px;
+        height: 700px;
+        background: url("./web-images/whitebrickwall.jpg");
+        margin-top: 20px;
+        position: relative;
+    }
+
+    #content #sidebar {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 240px;
+        height: 500px;
+        background-image: url("../web-images/lightwood.jpg");
+        border: 3px solid rgb(46, 45, 45);
+        padding: 5px;
+    }
+
+    .menu {
+        margin-bottom: 40px;
+    }
+
+    .menu h3 {
+        font-size: 24px;
+        color: #000;
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+
+    .menu h4 {
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+
+    .menu ul {
+        border-top: 2px solid #000;
+    }
+
+    .menu li {
+        border-bottom: 2px dashed #ccc;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .menu li a {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        padding: 10px;
+        background-image: url("../web-images/listmark.png");
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+        padding-left: 20px;
+    }
+
+    .menu li:hover a {
+        background-color: #999;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    #content .item {
+        /* border: 1px solid red; */
+        position: absolute;
+        width: 1050px;
+        height: auto;
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+
+    .item #box {
+        display: block;
+        float: left;
+        margin-left: 30px;
+        margin-right: 40px;
+
+    }
+
+    .item img {
+        display: inline-block;
+        width: 270px;
+        height: 220px;
+        border: 3px solid rgb(80, 78, 78);
+        border-radius: 5%;
+
+    }
+
+
+    .item .txt {
+        display: block;
+        border: 2px dashed rgb(66, 35, 9);
+        width: 270px;
+        height: 150px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .item .txt {
+        text-decoration: underline;
+    }
+
+    .item #box:hover img {
+        transform: translate(10px);
+        transform: scale(1.2, 1);
+    }
+
+    .item #box:hover .txt {
+        background-color: #00000057;
+
+    }
+
+    .item #box:hover .txt h3 {
+        font-size: 24px;
+
+    }
+
+
+    #copyright {
+        text-align: center;
+        margin-block-end: 10px;
+        margin-top: 10px;
+    }
+
+    #footer {
+        width: 100%;
+        clear: both;
+        background-color: black;
+        color: #fff;
+        padding: 30px 10px 30px 10px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="icon">
+        <a href="./index.html"><img src="../web-images/construction.png" alt="homepage"></a>
+    </div>
+    <div class="wrap">
+        <div id="content">
+            <div class="item">
+                <div id="box">
+                    <a href="./arab-as60_60.html"><img src="../images_actual/60x60/arab-as60_60/as-pic1.JPEG" alt="艾斯" title="艾斯"></a>
+
+                    <div class="txt">
+                        <h3>阿拉伯艾斯系列</h3>
+                        <p>編號:M6002_清水模白</p>
+                        <P>編號:R6006_清水模淺灰</P>
+                        <P>編號:R6005_清水模灰黑</P>
+                        <p>面感包裝:霧面4片/箱</p>
+                        <p>用途:地壁皆宜</p>
+                    </div>
+                </div>
+                <div id="box">
+                    <a href="./arab-kb60_60.html"><img src="../images_actual/60x60/arab-kb60_60/kb-pic3.JPEG" alt="庫巴" title="庫巴"></a>
+                    <div class="txt">
+                        <h3>阿拉伯庫巴系列</h3>
+                        <p>編號:P6001_銀狐白</p>
+                        <P>編號:P6002_淺灰石紋</P>
+                        <P>編號:P6009_深灰石紋</P>
+                        <p>面感包裝:亮面4片/箱</p>
+                        <p>用途:地壁皆宜</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="sidebar">
+                <div class="menu">
+                    <h3>產品尺寸</h3>
+                    <h4>60x60</h4>
+
+                    <ul>
+                        <li>
+                            <a href="./arab-as60_60.html">阿拉伯艾斯系列(清水模)</a>
+                        </li>
+                        <li>
+                            <a href="./arab-kb60_60.html">阿拉伯庫巴系列(亮面)</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="copyright">
+        <h4>Lightbox2 is licensed under <a href="https://raw.githubusercontent.com/lokesh/lightbox2/master/LUCENSE">The MITLicense.
+            </a></h4>
+    </div>
+    <div id="footer">
+        <p>DaChan Enterprise Co.,Ltd.</p>
+        <small>&copy; 2024 Dachan. All right reserved.</small>
+    </div>
+</body>
+
+</html>
